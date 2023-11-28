@@ -22,6 +22,11 @@ body{
     transform: scale(1.1);
 }
 
+.card:hover .icon img{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+
 .card .icon img{
     width: 100px;
     height: 100px;
